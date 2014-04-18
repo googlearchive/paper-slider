@@ -2,8 +2,9 @@
   "name": "paper-slider",
   "private": true,
   "dependencies": {
-    "core-layout": "Polymer/core-layout#master",
-    "paper-progress": "Polymer/paper-progress#master",
-    "paper-input": "Polymer/paper-input#master"
-  }
+    "core-layout": "Polymer/core-layout#0.2.3",
+    "paper-progress": "Polymer/paper-progress#0.2.3",
+    "paper-input": "Polymer/paper-input#0.2.3"
+  },
+  "version": "0.2.3"
 }
