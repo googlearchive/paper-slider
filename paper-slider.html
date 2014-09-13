@@ -118,6 +118,12 @@ To change the slider secondary progress bar color:
      */
 
     /**
+     * Fired when the slider's immediate value changes due to slider draging.
+     *
+     * @event drag-change
+     */
+
+    /**
      * Fired when the slider's value changes due to user interaction.
      *
      * Changes to the slider's value due to changes in an underlying
@@ -205,6 +211,8 @@ To change the slider secondary progress bar color:
     immediateValueChanged: function() {
       if (!this.dragging) {
         this.value = this.immediateValue;
+      } else {
+        this.fire('drag-change');
       }
     },
 
