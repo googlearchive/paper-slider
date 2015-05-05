@@ -2,9 +2,10 @@
   "name": "paper-slider",
   "private": true,
   "dependencies": {
-    "font-roboto": "Polymer/font-roboto#master",
-    "paper-input": "Polymer/paper-input#master",
-    "paper-progress": "Polymer/paper-progress#master",
-    "core-a11y-keys": "Polymer/core-a11y-keys#master"
-  }
+    "font-roboto": "Polymer/font-roboto#^0.5",
+    "paper-input": "Polymer/paper-input#^0.5",
+    "paper-progress": "Polymer/paper-progress#^0.5",
+    "core-a11y-keys": "Polymer/core-a11y-keys#^0.5"
+  },
+  "version": "0.5.6"
 }
