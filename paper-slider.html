@@ -103,7 +103,12 @@ To change the slider secondary progress bar color:
   </div>
 
   <template if="{{editable}}">
-    <paper-input id="input" class="slider-input" disabled?="{{disabled}}" on-change="{{inputChange}}"></paper-input>
+    <paper-input id="input"
+        auto-validate="{{autoValidateInput}}"
+        class="slider-input"
+        disabled?="{{disabled}}"
+        on-change="{{inputChange}}">
+    </paper-input>
   </template>
 
 </template>
@@ -180,6 +185,15 @@ To change the slider secondary progress bar color:
      * @default false
      */
     editable: false,
+      
+     /**
+     * If true, the paper-input has autoValidate property enabled.
+     *
+     * @attribute autoValidateInput
+     * @type boolean
+     * @default false
+     */
+    autoValidateInput: false,
 
     /**
      * The immediate value of the slider.  This value is updated while the user
